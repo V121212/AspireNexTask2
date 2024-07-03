@@ -1,0 +1,80 @@
+.delete-cart{
+    /* make it a button type  */
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.update-cart{
+    /* make it a update button type */
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cart{
+    /* make the whole cart looks good */
+    /* make a max-width to 50% */
+    /* please change it's background color */
+
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.cart-header{
+    /* make the header looks good */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-title{
+    /* make the title looks good */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-item{
+    /* make the item looks good */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-name{
+    /* make the name looks good */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-body{
+    /* align the cart-body in a proper manner  */
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
